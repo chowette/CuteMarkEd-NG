@@ -74,9 +74,9 @@ QString HtmlTemplate::renderAsHtml(const QString &header, const QString &body, T
     htmlHeader += header;
 
     QString htmlBody(body);
-    // Mermaid and highlighting.js don't work nicely together
+    // Mermaid do not work in <code> section
     // So we need to replace the <code> section by a <div> section
-    if (options.testFlag(Template::CodeHighlighting) && options.testFlag(Template::DiagramSupport)) {
+    if (options.testFlag(Template::DiagramSupport)) {
         convertDiagramCodeSectionToDiv(htmlBody);
     }
 
