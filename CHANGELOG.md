@@ -6,8 +6,14 @@ Highlights:
 
 The 0.12.1 release offers support to create timing diagram (waveform) using [wavedrom](https://github.com/wavedrom/wavedrom). 
  
+New Features:
 
 * `NEW` Added support to create timing diagrams using [mermaid](https://github.com/wavedrom/wavedrom). see [tutorial](https://wavedrom.com/tutorial.html) for samples.
+
+Improvements:
+
+* `IMPROVED` Updated mermaid.js library to version 8.11.0
+
 #### Version 0.12
 
 - `INFO` Revival of project and renamed as CuteMarkEd NG
