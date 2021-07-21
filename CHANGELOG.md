@@ -8,7 +8,7 @@ The 0.12.1 release offers support to create timing diagram (waveform) using [wav
  
 New Features:
 
-* `NEW` Added support to create timing diagrams using [mermaid](https://github.com/wavedrom/wavedrom). see [tutorial](https://wavedrom.com/tutorial.html) for samples.
+* `NEW` Added support to create timing diagrams using [wavedrom](https://github.com/wavedrom/wavedrom). See [tutorial](https://wavedrom.com/tutorial.html) for samples.
 
 Improvements:
 
